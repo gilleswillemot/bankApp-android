@@ -3,7 +3,10 @@ package be.abstraction.bankapp.screens
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
+import be.abstraction.bank.implementations.BankProvider
 import be.abstraction.bankapp.R
+import be.abstraction.core.interfaces.IBankProvider
+import be.abstraction.core.models.Bank
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

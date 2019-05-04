@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BankApp</string>
+    <string name="bank_overview_title">Overview of banks</string>
 </resources>
