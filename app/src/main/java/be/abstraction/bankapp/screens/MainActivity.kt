@@ -1,8 +1,8 @@
 package be.abstraction.bankapp.screens
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
+import androidx.appcompat.app.AppCompatActivity
 import be.abstraction.bankapp.R
 import be.abstraction.bankapp.moduleAssembler.BankController
 import be.abstraction.core.models.Bank

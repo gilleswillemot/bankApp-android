@@ -1,7 +1,7 @@
 package be.abstraction.bankapp.moduleAssembler
 
-import be.abstraction.bank.implementations.BankProvider
 import be.abstraction.core.interfaces.IBankProvider
+import be.abstraction.providers.BankProvider
 import org.koin.dsl.module
 
 // Given some classes
