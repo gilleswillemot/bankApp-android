@@ -30,7 +30,7 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
 
     // modules with common Business Logic over multiple platforms
-    implementation 'com.github.gilleswillemot:BankApp-core:1.1.1'
+    implementation 'com.github.gilleswillemot:BankApp-core:1.1.5'
     implementation 'com.github.gilleswillemot:BankProviderImpl:1.0.5'
 
     // injection of core implementation via Koin
