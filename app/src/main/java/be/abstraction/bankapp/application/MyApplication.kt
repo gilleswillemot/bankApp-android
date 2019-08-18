@@ -9,7 +9,6 @@ class MyApplication: Application() {
         super.onCreate()
 
         startKoin {
-            // your modules
             modules(bankProviderModule)
         }
     }

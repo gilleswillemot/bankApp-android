@@ -35,7 +35,6 @@ dependencies {
 
     // modules with common Business Logic over multiple platforms
     implementation 'com.github.gilleswillemot:bankApp-core-jvm:3.1.1' // from Bintray
-//    implementation 'com.github.gilleswillemot.BankProviderImpl:bankprovidermodule-android:1.1.1'
     implementation 'com.github.gilleswillemot.BankProviderImpl:bankprovidermodule-jvm:v1.1.5' // from Jitpack
 
 
