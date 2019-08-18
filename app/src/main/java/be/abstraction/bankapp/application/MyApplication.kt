@@ -1,7 +1,7 @@
 package be.abstraction.bankapp.application
 
 import android.app.Application
-import be.abstraction.bankapp.moduleAssembler.myModule
+import assemblers.bankProviderModule
 import org.koin.core.context.startKoin
 
 class MyApplication: Application() {
@@ -10,7 +10,7 @@ class MyApplication: Application() {
 
         startKoin {
             // your modules
-            modules(myModule)
+            modules(bankProviderModule)
         }
     }
  }
