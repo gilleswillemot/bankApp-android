@@ -19,9 +19,11 @@ android {
         }
     }
     // Execution failed for task ':app:transformResourcesWithMergeJavaResForDebug'.
-    // More than one file was found with OS independent path 'META-INF/core.kotlin_module'.
+    // More than one file was found with OS independent path 'META-INF/core.kotlin_module' and
+    // 'bankprovidermodule.kotlin_module'.
     packagingOptions {
         exclude 'META-INF/core.kotlin_module'
+        exclude 'META-INF/bankprovidermodule.kotlin_module'
     }
 }
 
@@ -32,10 +34,10 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
 
     // modules with common Business Logic over multiple platforms
-    implementation 'com.github.gilleswillemot.bankApp-core:core-jvm:1.2.9'
-//    'com.github.gilleswillemot:bankApp-core:1.2.9'
-//    'com.github.gilleswillemot.bankApp-core:core-jvm:1.2.9'
-    implementation 'com.github.gilleswillemot.BankProviderImpl:bankprovidermodule-android:1.1.1'
+    implementation 'com.github.gilleswillemot:bankApp-core-jvm:3.0.1' // from Bintray
+//    implementation 'com.github.gilleswillemot.BankProviderImpl:bankprovidermodule-android:1.1.1'
+    implementation 'com.github.gilleswillemot.BankProviderImpl:bankprovidermodule-jvm:v1.1.3' // from Jitpack
+
 
     // injection of core implementation via Koin
     implementation "org.koin:koin-core:$koin_version"
